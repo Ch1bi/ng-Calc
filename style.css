@@ -6,10 +6,23 @@ input {
 
 button{
 
-        padding: 10px;
+        height: 5vw;
+
+        font-size: bold;
+        font-size: 25px;
+        width: 5vw;
         background-color: red;
         color: white; 
 
 }
 
 
+#result {
+
+    min-height: 200px;
+    min-width: auto;
+    background-color: #ccc;
+    font-size: 23px;
+    font-weight: bold;
+
+}
