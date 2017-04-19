@@ -36,7 +36,7 @@
 
             $scope.divide = function(){
 
-            $scope.results = $scope.num1 * $scope.num2;
+            $scope.results = $scope.numbers.num1 * $scope.numbers.num2;
                             }
 
 
@@ -44,17 +44,19 @@
 
         </script>
     </head>
-    <body>
+    <body ng-controller="calcController">
 
-        <input type="number" ng-model="num1"/>
-        <input type="number" ng-model="num2"/>
+        <input type="number" ng-model="numbers.num1"/>
+        <input type="number" ng-model="numbers.num2"/>
+
 
         <button ng-click="add()">+</button>
         <button ng-click="subtract()">-</button>
         <button ng-click="multiply()">*</button>
         <button ng-click="divide()">/</button>
          
-        <p>{{result}}</p>
-        
+         <div id="results">
+        <p>{{results}}</p>
+         </div>
     </body>
 </html>
