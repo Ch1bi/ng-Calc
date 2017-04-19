@@ -1,0 +1,15 @@
+input {
+    background-color: #ccc;
+    color: black;
+    font-size: 23px; 
+}
+
+button{
+
+        padding: 10px;
+        background-color: red;
+        color: white; 
+
+}
+
+
